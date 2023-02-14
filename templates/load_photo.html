@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Отбор астронавтов</title>
+</head>
+<body style="text-align: center">
+<h1>Загрузка фотографии</h1>
+<h2>Для участия в миссии</h2>
+<form enctype="multipart/form-data" method="post" style="width:25%;background-color:#ffe066;margin-left: auto;margin-right: auto;">
+    <fieldset>
+        <label for="photo">Приложите фотографию</label>
+        <input type="file" id="photo" name="file"><br><br>
+        {% if photo %}
+            <img src="data:image/jpg;base-64,{{photo}})" alt="здесь должна была быть картинка, но не нашлась">
+        {% endif %}
+        <button type="submit" style="background-color:#b3deff">Отправить</button>
+    </fieldset>
+</form>
+</body>
+</html>

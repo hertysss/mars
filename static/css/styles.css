@@ -1,0 +1,31 @@
+h1 {
+color:red;
+}
+
+#line1 {
+background-color:#caccc8;
+auto;margin-right: auto;
+width:50%;
+}
+
+#line2 {
+background-color:#6bdb6b;
+auto;margin-right: auto;
+width:50%;
+}
+
+#line3 {
+background-color:#828282;
+auto;margin-right: auto;
+width:50%;
+}
+#line4 {
+background-color:#fff785;
+auto;margin-right: auto;
+width:50%;
+}
+#line5 {
+background-color:#ff6666;
+auto;margin-right: auto;
+width:50%;
+}
