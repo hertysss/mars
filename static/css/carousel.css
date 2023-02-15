@@ -30,6 +30,7 @@ text-align:center
   }
 }
 
+
 .pic-ctn {
   position: relative;
   width: 1000px;
@@ -39,9 +40,9 @@ text-align:center
 .pic-ctn > img {
   position: absolute;
   top: 0;
-  height: 800px;
-  width: 1000px;
-  left: calc(50% - 200px);
+  height: 600px;
+  width: 800px;
+  left: calc(50% - 100px);
   opacity: 0;
   animation: display 10s infinite;
 }
@@ -54,4 +55,8 @@ img:nth-child(3) {
 }
 img:nth-child(4) {
   animation-delay: 6s;
+}
+
+.form {
+transform: translate(45,350px);
 }
